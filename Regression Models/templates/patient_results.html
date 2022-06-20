@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Results</title>
+	<style>
+		body{
+			background-image: url("https://media.istockphoto.com/photos/red-ekg-on-black-background-picture-id1160037261?k=20&m=1160037261&s=612x612&w=0&h=cFT022b00-S73L9sKRrQclNCDx5B8w9GfyLAO3rmlWg=");
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index:0;
+		}
+		div{
+			z-index: 1;
+			color:white;
+			margin-left:150px;
+			margin-top:50px;
+		}
+		#pre{
+		float:left;
+		margin-left:15px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<h1>Results Sheet</h1>
+	<p>Name: {{results.name}}</p>
+	<p>Risk Level: {{results.risk}}%</p>
+        </div>
+        <div id="pre">
+	<h2>Precautions</h2>
+	<p>Eat Healthy And Balanced Diet</p>
+	<p>Be More Physically Active</p>
+	<p>Keep To Health A Weight</p>
+	<p>Give Up Smoking</p>
+	<p>Reduce Your Alcohol Consumption</p>
+	<p>Keep Your Blood Pressure Under Control</p>
+        </div>
+</body>
+</html>
